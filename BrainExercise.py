@@ -57,7 +57,7 @@ def main():
             print (answer)
         else:
             check(question,answer)
-            print ("                                   Clear after 5s                                    ")
+            print ("                                   Clear after" ,ts,"s")
             time.sleep(5)
             os.system('cls')
 main()
